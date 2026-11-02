@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO-ACADEMY INNOVA: Liderando el Futuro Verde</title>
+    <!-- Tailwind CSS para diseño moderno y responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        eco: {
+                            dark: '#0a2318',
+                            DEFAULT: '#113b28',
+                            light: '#1b593e',
+                            accent: '#2d8a5e',
+                            glow: '#34d399'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-eco-dark text-gray-100 font-sans antialiased selection:bg-eco-accent selection:text-white">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="sticky top-0 z-50 bg-eco-dark/90 backdrop-blur-md border-b border-eco-light/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-eco-light flex items-center justify-center border border-eco-glow/40 shadow-lg shadow-eco-light/20">
+                    <i class="fa-solid fa-seedling text-eco-glow"></i>
+                </div>
+                <span class="font-bold text-lg sm:text-xl tracking-wide text-white">Eco-Academy & Innova</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-300">
+                <a href="#inicio" class="hover:text-eco-glow transition">Inicio</a>
+                <a href="#identidad" class="hover:text-eco-glow transition">Identidad</a>
+                <a href="#uniformes" class="hover:text-eco-glow transition">Uniformes</a>
+                <a href="#valores" class="hover:text-eco-glow transition">Valores</a>
+                <a href="#infraestructura" class="hover:text-eco-glow transition">Campus</a>
+            </nav>
+            <a href="#cierre" class="hidden sm:inline-flex items-center px-4 py-2 rounded-xl bg-eco-light hover:bg-eco-accent text-white text-sm font-medium transition shadow-md shadow-eco-dark">
+                ¡Únete al cambio!
+            </a>
+        </div>
+    </header>
+
+    <!-- SECCIÓN HERO -->
+    <section id="inicio" class="relative overflow-hidden bg-gradient-to-b from-eco-dark via-eco to-eco-dark py-20 lg:py-28">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <div class="inline-block p-3 rounded-full bg-eco-light/60 border border-eco-glow/30 mb-6 shadow-xl">
+                <i class="fa-solid fa-tree text-3xl text-eco-glow"></i>
+            </div>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 uppercase">
+                Eco-Academy Innova: <br><span class="text-eco-glow">Liderando el Futuro Verde</span>
+            </h1>
+            <div class="inline-flex items-center space-x-2 px-5 py-2 rounded-full bg-eco-light/40 border border-eco-accent/40 text-sm text-gray-200">
+                <span class="w-2 h-2 rounded-full bg-eco-glow animate-pulse"></span>
+                <span>Innovación, Sostenibilidad y Transformación Ecológica</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABLA DE CONTENIDOS -->
+    <section class="py-16 bg-eco-dark border-y border-eco-light/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white mb-2">Tabla de Contenidos</h2>
+            <p class="text-gray-400 mb-8 text-sm">Agenda del Programa e Institución</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a href="#inicio" class="p-5 rounded-2xl bg-eco border border-eco-light/40 hover:border-eco-glow transition flex items-center space-x-4 group">
+                    <span class="text-xl font-bold text-eco-glow">01</span>
+                    <div>
+                        <h3 class="font-semibold text-white group-hover:text-eco-glow transition">Bienvenidos a ECO-ACADEMY INNOVA</h3>
+                        <p class="text-xs text-gray-400">Apertura y visión integral de la institución</p>
+                    </div>
+                </a>
+                <a href="#identidad" class="p-5 rounded-2xl bg-eco border border-eco-light/40 hover:border-eco-glow transition flex items-center space-x-4 group">
+                    <span class="text-xl font-bold text-eco-glow">02</span>
+                    <div>
+                        <h3 class="font-semibold text-white group-hover:text-eco-glow transition">Nuestra Identidad y Filosofía Educativa</h3>
+                        <p class="text-xs text-gray-400">Bases pedagógicas y modelo sostenible</p>
+                    </div>
+                </a>
+                <a href="#uniformes" class="p-5 rounded-2xl bg-eco border border-eco-light/40 hover:border-eco-glow transition flex items-center space-x-4 group">
+                    <span class="text-xl font-bold text-eco-glow">03</span>
+                    <div>
+                        <h3 class="font-semibold text-white group-hover:text-eco-glow transition">Uniforme Institucional: Comodidad y Movimiento</h3>
+                        <p class="text-xs text-gray-400">Diseño funcional adaptado al entorno</p>
+                    </div>
+                </a>
+                <a href="#valores" class="p-5 rounded-2xl bg-eco border border-eco-light/40 hover:border-eco-glow transition flex items-center space-x-4 group">
+                    <span class="text-xl font-bold text-eco-glow">04</span>
+                    <div>
+                        <h3 class="font-semibold text-white group-hover:text-eco-glow transition">Nuestros 5 Valores Fundamentales</h3>
+                        <p class="text-xs text-gray-400">Principios éticos que guían a la comunidad</p>
+                    </div>
+                </a>
+                <a href="#infraestructura" class="p-5 rounded-2xl bg-eco border border-eco-light/40 hover:border-eco-glow transition flex items-center space-x-4 group">
+                    <span class="text-xl font-bold text-eco-glow">05</span>
+                    <div>
+                        <h3 class="font-semibold text-white group-hover:text-eco-glow transition">Infraestructura y Espacios de Aprendizaje</h3>
+                        <p class="text-xs text-gray-400">Instalaciones ecológicas y de vanguardia</p>
+                    </div>
+                </a>
+                <a href="#campus3d" class="p-5 rounded-2xl bg-eco border border-eco-light/40 hover:border-eco-glow transition flex items-center space-x-4 group">
+                    <span class="text-xl font-bold text-eco-glow">06</span>
+                    <div>
+                        <h3 class="font-semibold text-white group-hover:text-eco-glow transition">Visualización del Campus en 3D y 2D</h3>
+                        <p class="text-xs text-gray-400">Perspectiva espacial interactiva y moderna</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- IDENTIDAD Y FILOSOFÍA -->
+    <section id="identidad" class="py-20 bg-eco">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white mb-2 text-center">Nuestra Identidad y Filosofía Educativa</h2>
+            <p class="text-center text-gray-400 mb-12 text-sm">Liderando el futuro verde</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 rounded-2xl bg-eco-dark border border-eco-light/40">
+                    <div class="w-12 h-12 rounded-xl bg-eco-light flex items-center justify-center mb-4 text-eco-glow"><i class="fa-solid fa-leaf text-xl"></i></div>
+                    <h3 class="font-bold text-white mb-2">Pilares Fundamentales</h3>
+                    <p class="text-xs text-gray-300">Fusión de Naturaleza, Aprendizaje e Innovación constante.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-eco-dark border border-eco-light/40">
+                    <div class="w-12 h-12 rounded-xl bg-eco-light flex items-center justify-center mb-4 text-eco-glow"><i class="fa-solid fa-book-open text-xl"></i></div>
+                    <h3 class="font-bold text-white mb-2">Marco Pedagógico</h3>
+                    <p class="text-xs text-gray-300">Enfoque pedagógico integral alineado con los estándares internacionales.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-eco-dark border border-eco-light/40">
+                    <div class="w-12 h-12 rounded-xl bg-eco-light flex items-center justify-center mb-4 text-eco-glow"><i class="fa-solid fa-hands-holding-child text-xl"></i></div>
+                    <h3 class="font-bold text-white mb-2">Conexión Ambiental</h3>
+                    <p class="text-xs text-gray-300">Unión activa del alumno con el entorno y la naturaleza comunitaria.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-eco-dark border border-eco-light/40">
+                    <div class="w-12 h-12 rounded-xl bg-eco-light flex items-center justify-center mb-4 text-eco-glow"><i class="fa-solid fa-solar-panel text-xl"></i></div>
+                    <h3 class="font-bold text-white mb-2">Futuro Resiliente</h3>
+                    <p class="text-xs text-gray-300">Compromiso con la educación sostenible e impulso hacia adelante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UNIFORMES -->
+    <section id="uniformes" class="py-20 bg-eco-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-2">Uniforme Institucional: Comodidad y Movimiento</h2>
+                    <p class="text-gray-400 text-sm">Diseño funcional adaptado al entorno escolar activo.</p>
+                </div>
+                <span class="px-4 py-1.5 rounded-full bg-eco-light text-xs font-semibold text-eco-glow uppercase tracking-wider">Educación Física</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="p-6 rounded-2xl bg-eco border border-eco-light/40">
+                    <span class="text-eco-glow font-bold text-sm">01. Diseño y Transpirabilidad</span>
+                    <p class="text-sm text-gray-300 mt-2">Diseñado para educación física con verde bosque y blanco puro, prioriza la máxima movilidad y transpirabilidad estudiantil.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-eco border border-eco-light/40">
+                    <span class="text-eco-glow font-bold text-sm">02. Conjunto Masculino</span>
+                    <p class="text-sm text-gray-300 mt-2">El conjunto ofrece flexibilidad deportiva, optimizado para el alto rendimiento físico y la total libertad postural.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-eco border border-eco-light/40">
+                    <span class="text-eco-glow font-bold text-sm">03. Versión Femenina</span>
+                    <p class="text-sm text-gray-300 mt-2">Brinda comodidad y frescura, adaptándose ergonómicamente a cada tipo de entrenamiento o actividad.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-eco border border-eco-light/40">
+                    <span class="text-eco-glow font-bold text-sm">04. Identidad Ecológica</span>
+                    <p class="text-sm text-gray-300 mt-2">Fusionando identidad ecológica, confort activo y dinamismo escolar bajo los tonos verde bosque institucional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5 VALORES FUNDAMENTALES -->
+    <section id="valores" class="py-20 bg-eco">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white mb-2 text-center">Nuestros 5 Valores Fundamentales</h2>
+            <p class="text-center text-gray-400 mb-12 text-sm">Principios esenciales orientados a formar líderes conscientes.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                <div class="p-5 rounded-2xl bg-eco-dark border border-eco-light/40 text-center">
+                    <span class="text-2xl font-black text-eco-glow">01</span>
+                    <h3 class="font-bold text-white mt-2 mb-1">Respeto Ambiental</h3>
+                    <p class="text-xs text-gray-400">Cuidado activo de nuestro planeta.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-eco-dark border border-eco-light/40 text-center">
+                    <span class="text-2xl font-black text-eco-glow">02</span>
+                    <h3 class="font-bold text-white mt-2 mb-1">Aprendizaje Continuo</h3>
+                    <p class="text-xs text-gray-400">Deseo constante de saber e investigar.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-eco-dark border border-eco-light/40 text-center">
+                    <span class="text-2xl font-black text-eco-glow">03</span>
+                    <h3 class="font-bold text-white mt-2 mb-1">Innovación Creativa</h3>
+                    <p class="text-xs text-gray-400">Soluciones originales frente a retos globales.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-eco-dark border border-eco-light/40 text-center">
+                    <span class="text-2xl font-black text-eco-glow">04</span>
+                    <h3 class="font-bold text-white mt-2 mb-1">Sostenibilidad</h3>
+                    <p class="text-xs text-gray-400">Responsabilidad consciente hacia el futuro.</p>
+                </div>
+                <div class="p-5 rounded-2xl bg-eco-dark border border-eco-light/40 text-center sm:col-span-2 lg:col-span-1">
+                    <span class="text-2xl font-black text-eco-glow">05</span>
+                    <h3 class="font-bold text-white mt-2 mb-1">Trabajo Comunitario</h3>
+                    <p class="text-xs text-gray-400">Cooperación solidaria al bien común.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFRAESTRUCTURA Y CAMPUS -->
+    <section id="infraestructura" class="py-20 bg-eco-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white mb-2">Infraestructura y Espacios de Aprendizaje</h2>
+            <p class="text-gray-400 mb-12 text-sm">Instalaciones ecológicas y de vanguardia.</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-1 p-6 rounded-2xl bg-eco border border-eco-light/40 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-4">Campus Sostenible</h3>
+                        <p class="text-sm text-gray-300 mb-6">Disponemos de 10 aulas modernas distribuidas funcionalmente, cancha deportiva central, áreas recreativas y extensos espacios verdes integrados.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 pt-4 border-t border-eco-light/30">
+                        <div>
+                            <span class="block text-2xl font-black text-eco-glow">10</span>
+                            <span class="text-xs text-gray-400">Aulas Activas</span>
+                        </div>
+                        <div>
+                            <span class="block text-2xl font-black text-eco-glow">100%</span>
+                            <span class="text-xs text-gray-400">Integración Verde</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2 space-y-4">
+                    <div class="p-4 rounded-xl bg-eco border border-eco-light/30 flex items-center space-x-4">
+                        <i class="fa-solid fa-school text-eco-glow text-xl"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">11 Aulas Modernas</h4>
+                            <p class="text-xs text-gray-400">Organizadas en filas funcionales para la excelencia pedagógica.</p>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-xl bg-eco border border-eco-light/30 flex items-center space-x-4">
+                        <i class="fa-solid fa-futbol text-eco-glow text-xl"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Cancha Deportiva Central</h4>
+                            <p class="text-xs text-gray-400">Diseñada para la práctica de baloncesto, atletismo y actividad física.</p>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-xl bg-eco border border-eco-light/30 flex items-center space-x-4">
+                        <i class="fa-solid fa-child-reaching text-eco-glow text-xl"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Zona de Recreación Equipada</h4>
+                            <p class="text-xs text-gray-400">Incluye domo de escalada, columpios y áreas de descanso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUALIZACIÓN CAMPUS 3D / 2D -->
+    <section id="campus3d" class="py-20 bg-eco">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-2">Visualización del Campus en 3D y Plano 2D</h2>
+            <p class="text-gray-400 mb-8 text-sm">Distribución arquitectónica y diseño eco-sustentable.</p>
+
+            <div class="p-8 rounded-3xl bg-eco-dark border border-eco-light/40 max-w-4xl mx-auto">
+                <div class="w-full h-64 sm:h-96 rounded-2xl bg-eco-light/20 border border-eco-light/40 flex flex-col items-center justify-center p-4 relative overflow-hidden">
+                    <i class="fa-solid fa-cubes text-6xl text-eco-glow mb-4 animate-bounce"></i>
+                    <h3 class="text-xl font-bold text-white">Modelo Interactivo del Campus</h3>
+                    <p class="text-xs text-gray-400 max-w-md mt-2">Las instalaciones combinan aulas bioclimáticas, espacios abiertos y conectividad natural regenerativa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CIERRE Y FOOTER -->
+    <footer id="cierre" class="py-16 bg-eco-dark border-t border-eco-light/30 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Cierre: Inspirando el Cambio Sostenible</h2>
+            <p class="text-gray-300 text-sm mb-8">En ECO-ACADEMY INNOVA impulsamos la educación sostenible e innovadora. Invitamos a toda la comunidad a ser partícipe activo de esta transformación.</p>
+            <div class="p-6 rounded-2xl bg-eco border border-eco-light/40 inline-block mb-8">
+                <p class="text-eco-glow font-semibold italic">"Naturaleza. Aprendizaje. Innovación."</p>
+                <span class="text-xs text-gray-400 mt-1 block">Horizonte 2030</span>
+            </div>
+            <div class="text-xs text-gray-500">
+                &copy; 2026 ECO-ACADEMY INNOVA. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
